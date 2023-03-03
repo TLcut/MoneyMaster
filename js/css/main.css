@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body{
+    background-color: rgb(224, 247, 217);
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    height:100%;
+    width: 100%;
+}
+header h1{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(44, 105, 46);
+    color: rgb(255, 255, 255);
+}
+header section h1{
+    color: rgb(255, 232, 183);
+    background-color: rgb(15, 135, 89);
+}
+button{
+    border:none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 20px;
+    background-color: rgb(206, 206, 206);
+}
+button:hover{
+    background-color: rgb(139, 139, 139);
+}
+.footer-btn a{
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+}
+nav{
+    background-color: rgb(179, 255, 175);
+    display: flex;
+    flex: 100%;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    flex-grow: 1;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav button{
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 0px;
+    width: fit-content;
+    width: 100%;
+    height: 100%;
+    display: inline-table;
+    background-color: rgb(76, 198, 0);
+    color: white;
+}
+nav button:hover{
+    background-color: rgb(44, 116, 0);
+}
+#setting{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+#create{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+.report{
+    width: 400px;
+    height: 200px;
+    display:flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+.report ul{
+    justify-content: space-between;
+    display: flex;
+    margin:auto;
+    list-style-type: none;
+}
+.report article{
+    display: block;
+    margin-right:10px;
+    padding: 20px;
+    background-color: rgb(15, 135, 89);
+    border-radius: 25px;
+}
+.report article p{
+    color: aliceblue;
+    font-size: 16px;
+}
+#nav-first{
+    background-color: rgb(36, 95, 0);
+}
+#nav-first:hover{
+    background-color: rgb(21, 56, 0);
+}
